@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+}
+
+.Top-Nav-Bar {
+    position: relative;
+    width: 1440px;
+    height: 32px;
+    background-color: #F9F9F9;
+}
+
+.Phone {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 99px;
+    height: 16px;
+    top: 8px;
+    left: 1042px;
+}
+
+.text-phone {
+    align-items: center;
+    display: inline-flex;
+    width: 75px;
+    height: 15px;
+    top: 1px;
+    margin-left: 24px;
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #313131;
+    white-space: nowrap;
+}
+
+.Mail {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 129px;
+    height: 16px;
+    top: 8px;
+    left: 1181px;
+}
+
+.text-mail {
+    align-items: center;
+    display: inline-flex;
+    width: 105px;
+    height: 16px;
+    margin-left: 24px;
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #313131;
+}
+
+.Nav-Bar {
+    position: relative;
+    display: flex;
+    width: 1440px;
+    height: 167px;
+}
+
+.logo {
+    position: absolute;
+    width: 145px;
+    height: 76px;
+    margin-top: 24px;
+    margin-left: 130px;
+}
+
+.Search {
+    position: absolute;
+    width: 580px;
+    height: 40px;
+    top: 40px;
+    left: 430px;
+}
+
+.Search input[type="text"] {
+    width: 580px;
+    height: 40px;
+    background-color: #F9F9F9;
+    border: 1px solid #D9D9D9;
+}
+
+.Search input[type="text"]::placeholder {
+    width: 500px;
+    height: 19px;
+    padding-top: 11px;
+    padding-left: 24px;
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #A6A6A6;
+}
+
+.Search button {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 9px;
+    left: 543px;
+    border: none;
+    background-color: transparent;
+    background-image: url(zdjecia/carbon_search.png);
+    background-size: contain;
+    cursor: pointer;
+    padding: 0;
+}
+
+.Cart {
+    position: absolute;
+    width: 117px;
+    height: 32px;
+    top: 43px;
+    left: 1090px;
+}
+
+.text-cart {
+    width: 73px;
+    height: 14px;
+    margin-top: 10px;
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.Cart button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.Account {
+    position: absolute;
+    width: 117px;
+    height: 32px;
+    top: 43px;
+    left: 1231px;
+}
+
+.text-account {
+    width: 73px;
+    height: 14px;
+    margin-top: 10px;
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.Account button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.Categories {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin-top: 124px;
+    margin-left: 130px;
+    gap: 40px;
+}
+
+.Nav-bar-category {
+    width: fit-content;
+    height: fit-content;
+}
+
+a {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #313131;
+    text-decoration: none;
+}
+
+.Top-Banner {
+    position: absolute;
+    width: 1440px;
+    height: 520px;
+    top: 199px;
+}
+
+.Benefits {
+    position: absolute;
+    width: 1440px;
+    height: 160px;
+    top: 719px;
+    background-color: #6AD3EA;
+}
+
+footer {
+    clear: both;
+}
