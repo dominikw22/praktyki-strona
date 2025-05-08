@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #F9F9F9;
 }
 
 .Top-Nav-Bar {
@@ -210,6 +211,101 @@ a {
     height: 160px;
     top: 719px;
     background-color: #6AD3EA;
+}
+
+.Carousel {
+    position: absolute;
+    display: flex;
+    width: 1180px;
+    height: 480px;
+    top: 1046px;
+    left: 130px;
+    background-color: #F9F9F9;
+}
+
+.Carousel img {
+    background-color: white;
+    margin-left: 50px;
+    margin-bottom: -84px;
+}
+
+.title {
+    position: absolute;
+    width: 537px;
+    height: 39px;
+    margin-top: 744px;
+    margin-left: 131px;
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #313131;
+}
+
+.Product-Title {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding-top: 108px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin-left: 20px;
+    gap: 8px;
+    background-color: white;
+}
+
+.Product-Title button {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    margin-left: 42px;
+    margin-top: 8px;
+    gap: 8px;
+    border: none;
+    background: #24781A;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.book-title {
+    width: 220px;
+    height: 38px;
+    margin-top: 24px;
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #313131;
+
+}
+
+.price {
+    width: 220px;
+    height: 36px;
+    margin-top: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #313131;
 }
 
 footer {
