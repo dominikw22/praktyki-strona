@@ -3,21 +3,28 @@ body {
     background-color: #F9F9F9;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .Top-Nav-Bar {
-    position: relative;
+    /* position: relative; */
     width: 1440px;
     height: 32px;
     background-color: #F9F9F9;
 }
 
 .Phone {
-    position: absolute;
+    /* position: absolute; */
+    float: inline-end;
     display: flex;
     align-items: center;
     width: 99px;
     height: 16px;
-    top: 8px;
-    left: 1042px;
+    margin-top: 8px;
+    margin-right: 40px;
 }
 
 .text-phone {
@@ -38,13 +45,14 @@ body {
 }
 
 .Mail {
-    position: absolute;
+    /* position: absolute; */
+    float: inline-end;
     display: flex;
     align-items: center;
     width: 129px;
     height: 16px;
-    top: 8px;
-    left: 1181px;
+    margin-top: 8px;
+    margin-right: 130px;
 }
 
 .text-mail {
@@ -63,14 +71,15 @@ body {
 }
 
 .Nav-Bar {
-    position: relative;
-    display: flex;
+    /* position: relative; */
     width: 1440px;
     height: 167px;
+    background-color: #FFFFFF;
 }
 
 .logo {
-    position: absolute;
+    /* position: absolute; */
+    float: left;
     width: 145px;
     height: 76px;
     margin-top: 24px;
@@ -78,11 +87,10 @@ body {
 }
 
 .Search {
-    position: absolute;
-    width: 580px;
-    height: 40px;
-    top: 40px;
-    left: 430px;
+    /* position: absolute; */
+    float: left;
+    margin-top: 40px;
+    margin-left: 155px;
 }
 
 .Search input[type="text"] {
@@ -93,8 +101,6 @@ body {
 }
 
 .Search input[type="text"]::placeholder {
-    width: 500px;
-    height: 19px;
     padding-top: 11px;
     padding-left: 24px;
     font-family: 'Varela Round';
@@ -106,11 +112,10 @@ body {
 }
 
 .Search button {
-    position: absolute;
+    /* position: absolute; */
+    /* float: right; */
     width: 24px;
     height: 24px;
-    top: 9px;
-    left: 543px;
     border: none;
     background-color: transparent;
     background-image: url(zdjecia/carbon_search.png);
@@ -120,11 +125,12 @@ body {
 }
 
 .Cart {
-    position: absolute;
+    /* position: absolute; */
+    float: left;
     width: 117px;
     height: 32px;
-    top: 43px;
-    left: 1090px;
+    margin-top: 43px;
+    margin-left: 80px;
 }
 
 .text-cart {
@@ -146,11 +152,12 @@ body {
 }
 
 .Account {
-    position: absolute;
+    /* position: absolute; */
+    float: left;
     width: 117px;
     height: 32px;
-    top: 43px;
-    left: 1231px;
+    margin-top: 43px;
+    margin-left: 24px;
 }
 
 .text-account {
@@ -199,27 +206,27 @@ a {
 }
 
 .Top-Banner {
-    position: absolute;
     width: 1440px;
     height: 520px;
-    top: 199px;
 }
 
 .Benefits {
-    position: absolute;
+    /* position: absolute; */
     width: 1440px;
     height: 160px;
-    top: 719px;
+    /* top: 719px; */
     background-color: #6AD3EA;
 }
 
 .Carousel {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     width: 1180px;
     height: 480px;
-    top: 1046px;
-    left: 130px;
+    margin-bottom: 120px;
+    margin-top: 64px;
+    margin-left: 130px;
+    margin-right: 130px;
     background-color: #F9F9F9;
 }
 
@@ -230,11 +237,10 @@ a {
 }
 
 .title {
-    position: absolute;
-    width: 537px;
-    height: 39px;
-    margin-top: 744px;
-    margin-left: 131px;
+    /* position: absolute; */
+    margin-top: 64px;
+    margin-right: 772px;
+    margin-left: -131px;
     font-family: 'Varela Round';
     font-weight: 400;
     font-size: 32px;
@@ -256,7 +262,7 @@ a {
     background-color: white;
 }
 
-.Product-Title button {
+.btn-koszyk {
     width: fit-content;
     height: fit-content;
     border-radius: 8px;
@@ -277,6 +283,7 @@ a {
     letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .book-title {
@@ -306,6 +313,116 @@ a {
     text-align: center;
     vertical-align: middle;
     color: #313131;
+}
+
+.price span {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: line-through;
+    color: #F93A3A;
+}
+
+.arrow {
+    width: 56px;
+    height: 56px;
+    margin-top: 196px;
+    margin-left: -8px;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center center; 
+    border: none;
+    background-color: transparent;
+    background-image: url(zdjecia/tabler_chevron-up.png);
+    background-size: contain;
+    cursor: pointer;
+    padding: 0;
+    padding: 8px;
+}
+
+/* .arrow img {
+    border-radius: 8px;
+} */
+
+.Banner {
+    width: 1440px;
+    height: 400px;
+}
+
+.percent {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 8px;
+    border-radius: 4px;
+    gap: 8px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    background-color: #F93A3A;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.new-book1 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    background: #52BF45;
+    color: white;
+    margin-top: 42px;
+    margin-left: 20px;
+    border-radius: 4px;
+    gap: 8px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.new-book2 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    background: #52BF45;
+    color: white;
+    margin-top: 8px;
+    margin-left: 20px;
+    border-radius: 4px;
+    gap: 8px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
 }
 
 footer {

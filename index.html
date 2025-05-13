@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
     <div class="Top-Nav-Bar">
-        <div class="Phone">
-            <img src="zdjecia/carbon_phone.png" alt="Phone">
-            <div class="text-phone">608 167 277</div>
-            </div>
-            
         <div class="Mail">
             <img src="zdjecia/carbon_email.png" alt="email">
             <div class="text-mail">michal@papinio.pl</div>
         </div>
+        <div class="Phone">
+            <img src="zdjecia/carbon_phone.png" alt="Phone">
+            <div class="text-phone">608 167 277</div>
+            </div>
     </div>
 
     <div class="Nav-Bar">
@@ -104,6 +104,8 @@
         <div class="Carousel">
 
             <div class="book">
+                <button class="percent">-30%</button>
+                <button class="new-book1">Nowość</button>
                 <img src="zdjecia/book1.png" alt="opowiesci z narnii">
                 <div class="Product-Title">
                     <div class="book-title">
@@ -112,11 +114,12 @@
                     <div class="price">
                         16,79 zł
                     </div>
-                    <button>Do koszyka</button>
+                    <button class="btn-koszyk">Do koszyka</button>
                 </div>
     
             </div>
             <div class="book">
+                <button class="new-book2">Nowość</button>
                 <img src="zdjecia/book2.png" alt="tutu i zwierzeta">
                 <div class="Product-Title">
                     <div class="book-title">
@@ -125,7 +128,7 @@
                     <div class="price">
                         39,90 zł
                     </div>
-                    <button>Do koszyka</button>
+                    <button class="btn-koszyk">Do koszyka</button>
                 </div>
                 </div>  
                 <div class="book">
@@ -137,25 +140,31 @@
                         <div class="price">
                             16,79 zł
                         </div>
-                        <button>Do koszyka</button>
+                        <button class="btn-koszyk">Do koszyka</button>
                     </div>
                     </div>
                     <div class="book">
+                        <button class="percent">-15%</button>
                         <img src="zdjecia/book4.png" alt="dziewczynka ktora wypila ksiezyc">
                         <div class="Product-Title">
                             <div class="book-title">
                                 Dziewczynka, która wypiła księżyc
                             </div>
                             <div class="price">
-                                35,11 zł 49,90zł
+                                35,11 zł <span>49,90zł</span>
                             </div>
-                            <button>Do koszyka</button>
+                            <button class="btn-koszyk">Do koszyka</button>
+                            
                         </div>
+                        
+                        
+        </div>
+        <button class="arrow"></button>
         </div>
 
 
     <div class="Banner">
-
+        <img src="zdjecia/Banner.png" alt="Banner">
     </div>
 
     <div class="Rectangle7">
@@ -171,5 +180,6 @@
     </div>
 
     <footer></footer>
+</div>
 </body>
 </html>
